@@ -98,6 +98,15 @@ const SocialButton = () => {
           <i className='fab fa-youtube transform hover:scale-125 duration-150 hover:text-green-600' />
         </a>
       )}
+      {siteConfig('CONTACT_ARTSTATION') && (
+        <a
+          target='_blank'
+          rel='noreferrer'
+          title={'artstation'}
+          href={siteConfig('CONTACT_ARTSTATION')}>
+          <i className='fab fa-artstation transform hover:scale-125 duration-150 hover:text-green-600' />
+        </a>
+      )}
     </div>
   )
 }
