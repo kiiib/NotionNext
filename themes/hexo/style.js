@@ -26,7 +26,7 @@ const Style = () => {
     
     #theme-hexo .menu-link:hover {
         background-size: 100% 2px;
-        color: #333333;
+        color: #eeeeee;
     }
 
     /* 设置了从上到下的渐变黑色 */
@@ -61,7 +61,7 @@ const Style = () => {
     }
 
     ::-webkit-scrollbar-thumb {
-        background-color: #49b1f5;
+        background-color: #aaaaaa;
     }
 
     * {
