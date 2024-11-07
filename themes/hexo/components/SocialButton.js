@@ -36,31 +36,13 @@ const SocialButton = () => {
   return (
     <div className='w-full justify-center flex-wrap flex'>
       <div className='space-x-3 text-xl flex items-center text-gray-600 dark:text-gray-300 '>
-        {CONTACT_GITHUB && (
+        {CONTACT_LINKEDIN && (
           <a
             target='_blank'
             rel='noreferrer'
-            title={'github'}
-            href={CONTACT_GITHUB}>
-            <i className='transform hover:scale-125 duration-150 fab fa-github dark:hover:text-indigo-400 hover:text-indigo-600' />
-          </a>
-        )}
-        {CONTACT_TWITTER && (
-          <a
-            target='_blank'
-            rel='noreferrer'
-            title={'twitter'}
-            href={CONTACT_TWITTER}>
-            <i className='transform hover:scale-125 duration-150 fab fa-twitter dark:hover:text-indigo-400 hover:text-indigo-600' />
-          </a>
-        )}
-        {CONTACT_TELEGRAM && (
-          <a
-            target='_blank'
-            rel='noreferrer'
-            href={CONTACT_TELEGRAM}
-            title={'telegram'}>
-            <i className='transform hover:scale-125 duration-150 fab fa-telegram dark:hover:text-indigo-400 hover:text-indigo-600' />
+            href={CONTACT_LINKEDIN}
+            title={'linkIn'}>
+            <i className='transform hover:scale-125 duration-150 fab fa-linkedin dark:hover:text-indigo-400 hover:text-indigo-600' />
           </a>
         )}
         {CONTACT_ARTSTATION && (
@@ -72,13 +54,40 @@ const SocialButton = () => {
             <i className='transform hover:scale-125 duration-150 fab fa-brands fa-artstation dark:hover:text-indigo-400 hover:text-indigo-600' />
           </a>
         )}
-        {CONTACT_LINKEDIN && (
+        {CONTACT_TWITTER && (
           <a
             target='_blank'
             rel='noreferrer'
-            href={CONTACT_LINKEDIN}
-            title={'linkIn'}>
-            <i className='transform hover:scale-125 duration-150 fab fa-linkedin dark:hover:text-indigo-400 hover:text-indigo-600' />
+            title={'twitter'}
+            href={CONTACT_TWITTER}>
+            <i className='transform hover:scale-125 duration-150 fab fa-twitter dark:hover:text-indigo-400 hover:text-indigo-600' />
+          </a>
+        )}
+        {CONTACT_GITHUB && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'github'}
+            href={CONTACT_GITHUB}>
+            <i className='transform hover:scale-125 duration-150 fab fa-github dark:hover:text-indigo-400 hover:text-indigo-600' />
+          </a>
+        )}
+        {CONTACT_EMAIL && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'email'}
+            href={`mailto:${CONTACT_EMAIL}`}>
+            <i className='transform hover:scale-125 duration-150 fas fa-envelope dark:hover:text-indigo-400 hover:text-indigo-600' />
+          </a>
+        )}
+        {CONTACT_TELEGRAM && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            href={CONTACT_TELEGRAM}
+            title={'telegram'}>
+            <i className='transform hover:scale-125 duration-150 fab fa-telegram dark:hover:text-indigo-400 hover:text-indigo-600' />
           </a>
         )}
         {CONTACT_WEIBO && (
@@ -97,15 +106,6 @@ const SocialButton = () => {
             title={'instagram'}
             href={CONTACT_INSTAGRAM}>
             <i className='transform hover:scale-125 duration-150 fab fa-instagram dark:hover:text-indigo-400 hover:text-indigo-600' />
-          </a>
-        )}
-        {CONTACT_EMAIL && (
-          <a
-            target='_blank'
-            rel='noreferrer'
-            title={'email'}
-            href={`mailto:${CONTACT_EMAIL}`}>
-            <i className='transform hover:scale-125 duration-150 fas fa-envelope dark:hover:text-indigo-400 hover:text-indigo-600' />
           </a>
         )}
         {ENABLE_RSS && (
