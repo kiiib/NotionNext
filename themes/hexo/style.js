@@ -26,7 +26,7 @@ const Style = () => {
     
     #theme-hexo .menu-link:hover {
         background-size: 100% 2px;
-        color: #20bdf0;
+        color: #928CEE;
     }
 
     /* 设置了从上到下的渐变黑色 */
