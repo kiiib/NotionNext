@@ -26,7 +26,7 @@ const Style = () => {
     
     #theme-hexo .menu-link:hover {
         background-size: 100% 2px;
-        color: #eeeeee;
+        color: #2b2b2b;
     }
 
     /* 设置了从上到下的渐变黑色 */
@@ -66,7 +66,7 @@ const Style = () => {
 
     * {
         scrollbar-width:thin;
-        scrollbar-color: #49b1f5 transparent
+        scrollbar-color: #696969 transparent
     }
     
 
