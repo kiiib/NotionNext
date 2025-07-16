@@ -14,8 +14,10 @@ const Footer = ({ title }) => {
     <footer className='relative z-10 dark:bg-black flex-shrink-0 bg-hexo-light-gray justify-center text-center m-auto w-full leading-6  text-gray-600 dark:text-gray-100 text-sm p-6'>
       {/* <DarkModeButton/> */}
       <i className='fas fa-copyright' /> {`${copyrightDate}`}
+      <span className='mx-2'></span>
       <span>
         {/* <i className='mx-1 animate-pulse fas fa-heart' /> */}
+        
         <a
           href={siteConfig('LINK')}
           className='underline font-bold  dark:text-gray-300 '>
