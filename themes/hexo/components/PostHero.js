@@ -71,7 +71,7 @@ export default function PostHero({ post, siteInfo }) {
                 </>
               )}
               <div className='pl-1 mr-2'>
-                {locale.COMMON.LAST_EDITED_TIME}: {post.lastEditedDay}
+                {/* {locale.COMMON.LAST_EDITED_TIME}: {post.lastEditedDay} */}
               </div>
             </div>
 
